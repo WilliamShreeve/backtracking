@@ -1,7 +1,9 @@
 #include <iostream>
 #include "../include/sudoku.h"
 int main(int argc, char** argv){
-	
+
+	(void)argc;
+	(void)argv;	
 	int board[9][9] = {{ 0, 3, 0, 0, 0, 0, 0, 2, 0 },
                    { 0, 9, 0, 0, 0, 0, 0, 8, 5 },
                    { 5, 0, 0, 0, 8, 0, 4, 0, 0 },
